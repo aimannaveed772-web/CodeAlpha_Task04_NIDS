@@ -1,0 +1,6 @@
+[2026-07-23 05:09:18] ALERT [CRITICAL] [SQL Injection Threat] - Source: 10.0.0.45 -> Dest: 192.168.1.1:80 | Payload: "GET /products.php?id=1 UNION SELECT * FROM users HTTP/1.1"
+[2026-07-23 05:09:18] ALERT [HIGH] [Directory Traversal] - Source: 172.16.0.8 -> Dest: 192.168.1.1:80 | Payload: "GET /../../etc/passwd HTTP/1.1"
+[2026-07-23 05:09:18] ALERT [HIGH] [Port Scanning Activity] - Source: 10.0.0.99 -> Dest: 192.168.1.1:443 | Payload: "User-Agent: NMAP Scripting Engine"
+[2026-07-23 05:11:36] ALERT [CRITICAL] [SQL Injection Threat] - Source: 10.0.0.45 -> Dest: 192.168.1.1:80 | Payload: "GET /products.php?id=1 UNION SELECT * FROM users HTTP/1.1"
+[2026-07-23 05:11:36] ALERT [HIGH] [Directory Traversal] - Source: 172.16.0.8 -> Dest: 192.168.1.1:80 | Payload: "GET /../../etc/passwd HTTP/1.1"
+[2026-07-23 05:11:36] ALERT [HIGH] [Port Scanning Activity] - Source: 10.0.0.99 -> Dest: 192.168.1.1:443 | Payload: "User-Agent: NMAP Scripting Engine"
